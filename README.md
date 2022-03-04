@@ -1,6 +1,6 @@
 # SK Watch
 
-That is backend code. Technology use: Node, Express, MongoDB etc.
+That is backend code. Technology use: Node, Express, MongoDB, Mongoose etc.
 
 ## Live link:
 
