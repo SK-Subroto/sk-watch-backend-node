@@ -24,7 +24,7 @@ async function run() {
         const reviewsCollection = database.collection('reviews');
         const usersCollection = database.collection('users');
 
-        /* -------product------ */ 
+        /* -------product------ */
         // GET API
         app.get('/products', async (req, res) => {
             const cursor = productsCollection.find({});
@@ -77,7 +77,7 @@ async function run() {
         app.get('/orders', async (req, res) => {
             const email = req.query.email;
             let query = {};
-            if(email){
+            if (email) {
                 query = { email: email };
             }
             // console.log(query);
